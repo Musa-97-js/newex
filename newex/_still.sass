@@ -1,0 +1,25 @@
+#still
+    padding: 40px 0
+    .box
+        justify-content: space-around
+        .minibox
+            width: 180px
+            height: 180px
+            background-color: #6189d4
+            color: white
+            display: flex
+            justify-content: center
+            align-items: center
+            h1
+                background-color: #253e6b
+                padding: 30px
+                transition: 1.5s
+                &:hover
+                    transition: 1.5s
+                    padding: 60px
+    @media screen and ( max-width: 700px )
+        .box
+            flex-direction: column
+            align-items: center
+            .minibox
+                border: 1px solid #3b6e5f
